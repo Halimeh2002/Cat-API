@@ -22,7 +22,9 @@ function App() {
 
   return (
     <div className="App">
-      <button onClick={fetchFact}>fetch data</button>
+      <button onClick={fetchFact} className="boton-elegante">
+        fetch data
+      </button>
       <p>{fact}</p>
     </div>
   );
